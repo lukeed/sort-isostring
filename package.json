@@ -1,0 +1,41 @@
+{
+  "version": "0.0.0",
+  "name": "sort-isostring",
+  "repository": "lukeed/sort-isostring",
+  "description": "A tiny (110B) utility to compare ISO format strings",
+  "unpkg": "dist/index.min.js",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "types": "sort.d.ts",
+  "license": "MIT",
+  "author": {
+    "name": "Luke Edwards",
+    "email": "luke.edwards05@gmail.com",
+    "url": "https://lukeed.com"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "build": "bundt",
+    "pretest": "npm run build",
+    "test": "tape -r esm test/*.js | tap-spec"
+  },
+  "files": [
+    "*.d.ts",
+    "dist"
+  ],
+  "keywords": [
+    "iso",
+    "compare",
+    "isostring",
+    "sorting",
+    "date"
+  ],
+  "devDependencies": {
+    "bundt": "1.0.0",
+    "esm": "3.2.25",
+    "tap-spec": "5.0.0",
+    "tape": "4.9.1"
+  }
+}
