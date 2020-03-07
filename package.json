@@ -2,7 +2,7 @@
   "version": "0.0.0",
   "name": "sort-isostring",
   "repository": "lukeed/sort-isostring",
-  "description": "A tiny (110B) utility to compare ISO format strings",
+  "description": "A tiny (110B) utility to sort ISO 8601 Date strings",
   "unpkg": "dist/index.min.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
@@ -29,6 +29,7 @@
     "iso",
     "compare",
     "isostring",
+    "iso 8601",
     "sorting",
     "date"
   ],
