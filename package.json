@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0",
+  "version": "1.0.0",
   "name": "sort-isostring",
   "repository": "lukeed/sort-isostring",
   "description": "A tiny (110B) utility to sort ISO 8601 Date strings",
