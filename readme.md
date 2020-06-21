@@ -1,3 +1,5 @@
+> **ARCHIVED**<br>Unless you're working with _very_ old browsers or Node.js runtimes, you do not need this library!<br>A regular `arr.sort()` will work identically, and is now much faster.<br>If sorting by recency (latest first), please [beware of the gotchas](https://github.com/lukeed/sort-isostring/issues/1#issuecomment-647164151).
+
 # sort-isostring [![build status](https://badgen.net/github/status/lukeed/sort-isostring)](https://github.com/lukeed/sort-isostring/actions) [![codecov](https://badgen.now.sh/codecov/c/github/lukeed/sort-isostring)](https://codecov.io/gh/lukeed/sort-isostring)
 
 > A tiny (110B) and [fast](#benchmarks) utility to sort [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601) Date strings
